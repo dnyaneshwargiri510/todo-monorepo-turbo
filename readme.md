@@ -25,3 +25,8 @@ pnpm turbo run build --graph
 pnpm turbo run build --graph=d.svg
 
 pnpm turbo prune @todo/web
+
+pnpm turbo link
+pnpm exec turbo run build
+pnpm exec turbo run clean
+pnpm turbo run build

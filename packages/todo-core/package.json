@@ -2,5 +2,9 @@
   "name": "@todo/core",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js"
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && echo '// core compiled' > dist/index.js",
+    "clean": "rm -rf dist .turbo"
+  }
 }
