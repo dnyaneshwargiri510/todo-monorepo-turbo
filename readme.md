@@ -16,3 +16,5 @@ cat << 'EOF' > turbo.json
 EOF
 
 pnpm pkg set scripts.build="turbo run build"
+
+git remote set-url origin git@github-transperfect:dnyaneshwargiri510/todo-monorepo-turbo.git
